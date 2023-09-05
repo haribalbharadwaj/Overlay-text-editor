@@ -1,0 +1,27 @@
+/* Styling for the text overlay */
+.text-overlay {
+  position: absolute;
+  font-size: 20px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 5px;
+  pointer-events: none;
+  -webkit-user-select: none; /* Add -webkit-user-select to support Safari */
+  user-select: none;
+  cursor: move;
+}
+
+/* Define styles for the resizable handle */
+.react-resizable {
+  position: absolute;
+}
+
+.react-resizable-handle {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: #007bff;
+  border: 2px solid #fff;
+  cursor: se-resize;
+}
